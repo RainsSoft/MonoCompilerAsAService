@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C4402AEC-FE63-4A41-BC48-BFD013A42C4D}</ProjectGuid>
+    <ProjectGuid>{DD9B9B6C-A400-4C9B-93AF-92AC7A4BFB38}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestApplication1</RootNamespace>
-    <AssemblyName>TestApplication1</AssemblyName>
+    <RootNamespace>CSharpShell</RootNamespace>
+    <AssemblyName>CSharpShell</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
