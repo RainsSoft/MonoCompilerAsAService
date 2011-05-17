@@ -11,18 +11,12 @@ This project is based on [Frank A. Krueger's](http://www.twitter.com/praeclarum)
     Console.WriteLine(_Compiler.Execute("new Fact().Run(5);"));
 
 
-#### Help and Documentation
-
-Additional help and much more examples can be found in the [Wiki](http://github.com/ahzf/MonoCompilerAsAService/wiki).   
-News and updates can also be found on twitter by following: [@ahzf](http://www.twitter.com/ahzf) or [@ahzf on Twitter](http://www.twitter.com/ahzf).
-
-
 #### License
 
-Just praise the Mono crew. I did nothing... But anyway [MonoCompilerAsAService](http://github.com/ahzf/MonoCompilerAsAService) is released under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0). For details see the [LICENSE](/ahzf/MonoCompilerAsAService/blob/master/LICENSE) file.    
+Just praise the Mono crew. I did nothing... But anyway [MonoCompilerAsAService](http://github.com/ahzf/MonoCompilerAsAService) is released under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0). For details see the [LICENSE](/ahzf/MonoCompilerAsAService/blob/master/LICENSE) file.
 To suggest a feature, report a bug or general discussion: [http://github.com/ahzf/MonoCompilerAsAService/issues](http://github.com/ahzf/MonoCompilerAsAService/issues)    
 If you want to help or contribute source code to this project, please use the same license.   
-The coding standards can be found by reading the code ;)
+
 
 #### Acknowledgments
 
