@@ -1,6 +1,6 @@
 
 MonoCompilerAsAService is just the [Mono](http://www.mono-project.com) 2.10 C# compiler as a small project.    
-This project is based on [Frank A. Krueger's](http://www.twitter.com/praeclarum) work porting this compiler to [Silverlight](https://github.com/praeclarum/runcs). Try it out at: http://runcsharp.com That site features the compiler plus a list of "run blocks".
+This project is based on [Frank A. Krueger's](http://www.twitter.com/praeclarum) work porting this compiler to [Silverlight](https://github.com/praeclarum/runcs). Try it out at: [runcsharp.com](http://runcsharp.com).
 
 #### Usage
 
