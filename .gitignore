@@ -1,0 +1,9 @@
+*.pidb
+*.VisualState.xml
+*.suo
+/MonoCompilerAsAService/obj
+/MonoCompilerAsAService/bin
+/MonoCSharp/obj
+/MonoCSharp/bin
+/TestApplication1/obj
+/TestApplication1/bin

@@ -1,0 +1,17 @@
+
+MonoCompilerAsAService would not be possible without the work
+done by others to create these useful packages:
+
+ - The Mono Crew
+   http://www.mono-project.com/Licensing
+   * The C# compiler is dual-licensed under the MIT/X11 license and the GNU General Public License (GPL).
+   * The tools are released under the terms of the GNU General Public License (GPL).
+   * The runtime libraries are under the GNU Library GPL 2.0 (LGPL 2.0).
+   * The class libraries are released under the terms of the MIT X11 license.
+     ASP.NET MVC, the Managed Extensibility Framework (MEF), the Dynamic Language Runtime (DLR),
+     System.Data.Services.Client, parts of System.Numerics and ASP.NET AJAX client software are
+     released by Microsoft under the open source Microsoft Permissive License, some of them are
+     dual licensed also as Apache2
+ 
+ - The C# compiler hosted in a web app
+   https://github.com/praeclarum/runcs
