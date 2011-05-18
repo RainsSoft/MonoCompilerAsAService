@@ -16,9 +16,9 @@ This project is based on [Frank A. Krueger's](http://www.twitter.com/praeclarum)
 	
 #### CSharpShell
 
-	You can also use a nice interactive CSharpShell based on Mono's read-eval-print loop...
+You can also use a nice interactive CSharpShell based on Mono's read-eval-print loop...
 
-	![CSharpShell screenshot](/ahzf/MonoCompilerAsAService/raw/master/doc/CSharpShell_InAction1.png)
+![CSharpShell screenshot](/ahzf/MonoCompilerAsAService/raw/master/doc/CSharpShell_InAction1.png)
 
 	
 #### License
