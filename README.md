@@ -9,7 +9,14 @@ This project is based on [Frank A. Krueger's](http://www.twitter.com/praeclarum)
     Console.WriteLine(_Compiler.Execute("Math.Sin(Math.PI / 6);"));
     Console.WriteLine(_Compiler.Execute("class Fact { public int Run(int n) { return n <= 0 ? 1 : n*Run(n-1); } }"));
     Console.WriteLine(_Compiler.Execute("new Fact().Run(5);"));
+    Console.WriteLine(_Compiler.Execute("\"abcdefgh\".Substring(1, 2);"));
+    Console.WriteLine(_Compiler.Execute("var str = \"Hello World!\";"));
+    Console.WriteLine(_Compiler.Execute("Print (str);"));
 
+
+	You can also use a nice interactive CSharpShell based on Mono's read-eval-print loop...
+
+	![CSharpShell screenshot](/ahzf/MonoCompilerAsAService/raw/master/doc/CSharpShell_InAction1.png)
 
 #### License
 

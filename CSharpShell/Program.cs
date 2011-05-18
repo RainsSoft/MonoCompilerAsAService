@@ -29,7 +29,7 @@ namespace de.ahzf.MonoCompilerAsAService
 
             #endregion
 
-            #region Start the interactive (REPL) shell...
+            #region Start the interactive (read-eval-print loop) shell...
 
             var _Report = new Report(new ConsoleReportPrinter());
             var _CLP    = new CommandLineParser(_Report);
