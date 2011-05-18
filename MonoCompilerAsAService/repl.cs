@@ -233,7 +233,7 @@ namespace Mono
 			SetupConsole ();
 
 			if (isatty && myShowBanner)
-                Console.WriteLine("CSharpShell, type \"help;\" for help\n\nEnter statements below.");
+                Console.WriteLine(ShellName + ", type \"help;\" for help\n\nEnter statements below.");
 
 		}
 
