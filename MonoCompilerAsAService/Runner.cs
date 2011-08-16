@@ -3,14 +3,16 @@ using Mono.CSharp;
 
 namespace RunCSharp
 {
+
 	/// <summary>
 	/// Runs C# code by wrapping the Mono.CSharp.Evaluator
 	/// </summary>
     public class Runner
     {
-        Report _report;
-        CompilerSettings _settings;
-        Evaluator _eval;
+
+        Report                  _report;
+        CompilerSettings        _settings;
+        Evaluator               _eval;
         Action<AbstractMessage> _printer;
 
 		/// <summary>
@@ -18,13 +20,15 @@ namespace RunCSharp
 		/// </summary>
         public Runner()
         {
-            _report = new Report(new Printer(this));
-            _settings = new CommandLineParser(_report).ParseArguments (new string[] {});
-            _eval = new Evaluator(_settings, _report);
+
+            _report   = new Report(new Printer(this));
+            _settings = new CommandLineParser(_report).ParseArguments(new string[] {});
+            _eval     = new Evaluator(_settings, _report);
 
             _eval.Run("using System;");
-            _eval.Run("using System.Collections.Generic;");
             _eval.Run("using System.Linq;");
+            _eval.Run("using System.Collections.Generic;");
+
         }
 
 		/// <summary>
@@ -78,16 +82,20 @@ namespace RunCSharp
 		/// </summary>
         class Printer : ReportPrinter
         {
+            
             Runner _r;
+            
             public Printer(Runner r)
             {
                 _r = r;
             }
+            
             public override void Print(AbstractMessage msg)
             {
                 base.Print(msg);
                 _r.OnMessage(msg);
             }
+
         }
 
     }

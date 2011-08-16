@@ -271,6 +271,7 @@ namespace Mono.CSharp
 		/// </remarks>
 		public string Evaluate (string input, out object result, out bool result_set)
 		{
+
 			CompiledMethod compiled;
 
 			result_set = false;
