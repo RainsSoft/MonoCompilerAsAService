@@ -7,3 +7,6 @@
 /MonoCSharp/bin
 /CSharpShell/obj
 /CSharpShell/bin
+
+/UnitTests/obj
+/UnitTests/bin
