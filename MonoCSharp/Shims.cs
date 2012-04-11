@@ -74,44 +74,44 @@ namespace System.Reflection
     }
 }
 
-namespace System.Diagnostics
-{
-    public class Stopwatch
-    {
-        DateTime _startTime;
-        DateTime? _stopTime;
-        public void Start()
-        {
-            _startTime = DateTime.UtcNow;
-            _stopTime = null;
-        }
-        public void Stop()
-        {
-            _stopTime = DateTime.UtcNow;
-        }
-        public TimeSpan Elapsed
-        {
-            get
-            {
-                if (_stopTime.HasValue)
-                {
-                    return (_stopTime.Value - _startTime);
-                }
-                else
-                {
-                    return (DateTime.UtcNow - _startTime);
-                }
-            }
-        }
-        public long ElapsedMilliseconds
-        {
-            get
-            {
-                return (long)Elapsed.TotalMilliseconds;
-            }
-        }
-    }
-}
+//namespace System.Diagnostics
+//{
+//    public class Stopwatch
+//    {
+//        DateTime _startTime;
+//        DateTime? _stopTime;
+//        public void Start()
+//        {
+//            _startTime = DateTime.UtcNow;
+//            _stopTime = null;
+//        }
+//        public void Stop()
+//        {
+//            _stopTime = DateTime.UtcNow;
+//        }
+//        public TimeSpan Elapsed
+//        {
+//            get
+//            {
+//                if (_stopTime.HasValue)
+//                {
+//                    return (_stopTime.Value - _startTime);
+//                }
+//                else
+//                {
+//                    return (DateTime.UtcNow - _startTime);
+//                }
+//            }
+//        }
+//        public long ElapsedMilliseconds
+//        {
+//            get
+//            {
+//                return (long)Elapsed.TotalMilliseconds;
+//            }
+//        }
+//    }
+//}
 
 //namespace System.Xml
 //{
