@@ -2,9 +2,13 @@
 using System.ComponentModel;
 using System.Collections.ObjectModel;
 using Mono.CSharp;
+using System.Collections.Generic;
 
 namespace RunCSharp
 {
+    public class ObservableCollection<T> : List<T> { 
+        
+    }
 	public class RunBlock : INotifyPropertyChanged
 	{
 		/// <summary>
@@ -121,7 +125,7 @@ namespace RunCSharp
 			// Run the code and track errors
 			//
 			Errors.Clear();
-			var complete = runner.Run(InputText, msg => {
+			var complete = runner.Run(InputText, (msg) => {
 				Errors.Add(msg);
 			});
 			OnPropertyChanged("HasErrors");
@@ -149,4 +153,6 @@ namespace RunCSharp
 			}
 		}
 	}
+
+
 }

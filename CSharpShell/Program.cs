@@ -14,6 +14,21 @@ namespace de.ahzf.MonoCompilerAsAService
 
         public static void Main(String[] myArgs)
         {
+             _Compiler = new Runner();
+
+            //var a = _Compiler.Execute("Math.Abs(-42);");
+            //Assert.AreEqual(42, a);
+
+            //var b = _Compiler.Execute("class Fact { public int Run(int n) { return n <= 0 ? 1 : n*Run(n-1); } }");
+            //var c = _Compiler.Execute("new Fact().Run(5);");
+            //Assert.AreEqual(120, c);
+
+            //var d = _Compiler.Execute("\"abcdefgh\".Substring(1, 2);");
+            //Assert.AreEqual("bc", d);
+
+            //var e = _Compiler.Execute("var test = 123;");
+            //Assert.AreEqual("bc", e);
+
 
             #region Feel free to step through...
 
@@ -26,7 +41,7 @@ namespace de.ahzf.MonoCompilerAsAService
             var f = _Compiler.Execute("class Echo { public Object Print(Object o) { return o; } }");
             var g = _Compiler.Execute("var test = 123;");
             var h = _Compiler.Execute("new Echo().Print(test);");
-
+            
             #endregion
 
             #region Start the interactive (read-eval-print loop) shell...
